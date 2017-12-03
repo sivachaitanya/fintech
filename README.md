@@ -1,10 +1,6 @@
-<a href="https://www.twilio.com">
-  <img src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg" alt="Twilio" width="250" />
-</a>
 
-[![Build Status](https://travis-ci.org/TwilioDevEd/survey-node.svg?branch=next-gen)](https://travis-ci.org/TwilioDevEd/survey-node)
 
-# Automated Surveys. Powered by Twilio - Node.js/Express
+# Low cost payment solution for rural India. Powered by Twilio - Node.js/Express
 
 Instantly collect structured data from your users with a survey conducted over a voice call or SMS text messages. Learn how to create your own survey in the language and framework of your choice. For a step-by-step tutorial see [twilio docs](https://www.twilio.com/docs/howto/walkthrough/automated-survey/node/express).
 
