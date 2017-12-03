@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Innominds Hackathon</title>
+    <link rel="shortcut icon" 
+        href="//twilio.com/bundles/marketing/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" 
+        href="//twilio.com/bundles/marketing/img/favicons/favicon_57.png">
+    <link rel="apple-touch-icon" sizes="72x72" 
+        href="//twilio.com//bundles/marketing/img/favicons/favicon_72.png">
+    <link rel="apple-touch-icon" sizes="114x114" 
+        href="//twilio.com/bundles/marketing/img/favicons/favicon_114.png">
+
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet"
+        href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" 
+        href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- App Layout -->
+<section id="main" class="container">
+    <h1>Low cost payment solution for rural India</h1>
+    <p>
+        Use case for Fintech Hackathon using ML and Blockchain
+    </p>
+    <p>
+        IVR NUMBER FOR DEMO - +1-828-548-1314
+    </p>
+    <h3>Showing <span id="total"></span> Total Responses</h3>
+    <hr/>
+
+  <!--  <div class="row">
+        <div class="col-sm-6">
+            <h3>"Please tell us your age."</h3>
+            <canvas id="ageChart" width="300" height="300"></canvas>
+        </div>
+        <div class="col-sm-6">
+            <h3>"Have you been registered on our platform before ?"</h3>
+            <canvas id="lemurChart" width="300" height="300"></canvas>
+        </div>
+    </div> -->
+
+    <div class="row">
+        <h3>"Speak your password ?"</h3>
+      
+        <table>
+            <tr>
+                  <th>Caller</th>
+                 <th>Twilio Answer</th>
+                <th>Twilio Recording</th>
+               
+            </tr>
+            <tbody  id="responses1">
+             </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <h3>"State the ID of your Receiver?"</h3>
+        <table >
+            <tr>
+                 <th>Caller</th>
+                 <th>Twilio Answer</th>
+                <th>Twilio Recording</th>
+                
+            </tr>
+             <tbody  id="responses2">
+             </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <h3>"State the amount to transfer ?"</h3>
+        <table>
+            <tr>
+                 <th>Caller</th>
+                <th>Twilio Answer</th>
+                <th>Twilio Recording</th>
+               
+                <th>Blockchain Tx hash</th>
+            </tr>
+             <tbody  id="responses3">
+             </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <h3>"Account Balances"</h3>
+        <table>
+            <tr>
+                 <th>Ethereum Address</th>
+                <th>Ether Balance</th>
+                
+            </tr>
+             <tbody  id="responses4">
+                <tr> <td>0x5392eda75409716900711ea8a06445649fca07e6</td> <td id="acc1">100</td></tr>
+                 <tr> <td>0x363bfea4c94b71bd348be61e05377b819b751e34</td> <td id="acc2">100</td></tr>
+             </tbody>
+        </table>
+    </div>
+</section>
+
+<footer class="container">
+    Made by team
+    <a href="www.innominds.com">@Innominds</a>
+</footer>
+
+<!-- JS Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="chart.js"></script>
+
+<!-- App script -->
+<script src="index.js"></script>
+
+</body>
+</html>
