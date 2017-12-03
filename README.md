@@ -68,13 +68,9 @@ To run the app locally:
    You will need to provision at least one Twilio number with voice capabilities
    so the application's users can take surveys. You can buy a number [using the twilio console.](https://www.twilio.com/user/account/phone-numbers/search). Once you havea number you need to configure your number to work with your application. Open [the number management page](https://www.twilio.com/user/account/phone-numbers/incoming) and open a number's configuration by clicking on it.
 
-   ![Configure Voice](public/webhook-screen-cap.gif)
+  
 
 
 1. Check it out at [http://localhost:3000](http://localhost:3000)
 
-## Meta
 
-* No warranty expressed or implied. Software is as is. Diggity.
-* [MIT License](http://www.opensource.org/licenses/mit-license.html)
-* Lovingly crafted by Twilio Developer Education.
